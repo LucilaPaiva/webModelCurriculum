@@ -1,0 +1,27 @@
+.my-nav{
+    font-size: 3em;
+}
+
+.my-title{
+    color: #ffff;
+    font-size: 2.5em;
+    padding-left: 35%;
+    margin-top: 10%;
+}
+
+ .container-image{
+    width: 25%;
+   margin-right: 5%;
+    
+} 
+
+.my-image{
+    width: 100%;
+    border-radius: 90%;
+}
+
+
+.my-button{
+    padding: 8%;
+    
+}
