@@ -15,8 +15,10 @@
 }
 
 .my-image {
-  width: 100%;
-  border-radius: 90%;
+  width: 60%;
+  border-radius: 65%;
+  margin: 15%;
+  border: 5px solid #2c2828;
 }
 
 .my-button {
@@ -151,7 +153,6 @@ footer {
   font-size: 0.8em;
 }
 
-
 @media only screen and (max-width: 768px) {
   .my-title {
     font-size: 1em;
@@ -176,7 +177,9 @@ footer {
 
   .my-image {
     width: 100%;
-    border-radius: 80%;
+    border-radius: 75%;
+    margin: 12%;
+    border: 3px solid #555050;
   }
 
   .logotipo {
@@ -211,5 +214,4 @@ footer {
   .mensaje {
     font-size: 0.8em;
   }
-
 }
