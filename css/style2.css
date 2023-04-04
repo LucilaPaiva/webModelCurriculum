@@ -151,7 +151,7 @@ footer {
   font-size: 0.8em;
 }
 
-@media screen and (max-width: 769px) and (min-width: 336px) {
+@media screen and (max-width: 880px) and (min-width: 342px) {
   .my-title {
     font-size: 1em;
   }
@@ -160,11 +160,11 @@ footer {
     font-size: 1em;
   }
 
-  .logotipo{
+  .logotipo {
     font-size: 1em;
   }
 
-  .mensaje{
+  .mensaje {
     font-size: 0.8em;
   }
 
@@ -175,17 +175,16 @@ footer {
 
   #countdown {
     width: 25%;
-    display: block
+    display: block;
   }
 
   #countdown > div {
     display: block;
     width: 100%;
   }
-
 }
 
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 341px) {
   .my-title {
     font-size: 1em;
   }
@@ -207,13 +206,12 @@ footer {
     margin-right: 5%;
   }
 
-  .logotipo{
+  .logotipo {
     font-size: 1em;
   }
 
-  .mensaje{
+  .mensaje {
     font-size: 0.7em;
-    
   }
 
   .contenedor-countdown {
@@ -230,26 +228,8 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    font-size: 0.5em;
+    font-size: 0.4em;
   }
-
-  /* contenedor-countdown {
-    width: 60%;
-    top: 30%;
-  }
-
-  #countdown {
-    width: 25%;
-    display: block
-  }
-
-  #countdown > div {
-    display: block;
-    width: 100%;
-  } */
-
-
-
 
   .logotipo {
     font-size: 1.5em;
@@ -258,5 +238,4 @@ footer {
   .mensaje {
     font-size: 0.8em;
   }
-
 }
