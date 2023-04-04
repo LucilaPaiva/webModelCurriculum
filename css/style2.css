@@ -9,11 +9,11 @@
     margin-top: 10%;
 }
 
- .container-image{
+.container-image{
     width: 25%;
     margin-right: 5%;
-    
-} 
+
+}
 
 .my-image{
     width: 100%;
@@ -23,17 +23,145 @@
 
 .my-button{
     padding: 8%;
-    
+
 }
 
+
+/* ********** CONTACTO ******** */
+
+.my-btn-enviar{
+    background-color: rgb(135, 152, 155);
+}
+
+
+/* *********** CONTADOR ********** */
+
+/* .container{
+  /* background-color: red; */
+  /* margin: auto;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+} */
+
+#contador{
+  background-color: rgb(149, 173, 173);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+  margin: auto;
+
+}
+
+.div-contador {
+  margin-top: 15px;
+  padding: 20px;
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.234);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.404);
+}
+
+
+.dias {
+  color: rgb(128, 0, 53);
+  font-weight: bold;
+}
+
+.horas {
+  color: rgb(64, 0, 128);
+  font-weight: bold;
+}
+
+.minutos {
+  color: rgb(0, 26, 128);
+  font-weight: bold;
+}
+
+.segundos {
+  color: teal;
+  font-weight: bold;
+}
+
+/* *********** FOOTER ***************** */
+
+footer {
+    width: 100%;
+    background-color: rgb(175, 170, 173);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+  }
+
+
+  .social-media-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-media-footer-list {
+    display: flex;
+    padding-top: 1em;
+  }
+
+  .social-media-footer-enlaces {
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.8em;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(39, 7, 25);
+  }
+
+  .social-media-footer-enlaces i {
+    margin: auto;
+  }
+
+  .social-media-footer-enlaces .icono-final:hover {
+    background-color: rgb(88, 71, 81);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .icono-final {
+    color: rgb(51, 35, 44);
+    font-size: 1.5em;
+  }
+
+  .final-love-container {
+    display: flex;
+  }
+
+  .final-love {
+    color: rgb(230, 230, 213);
+    font-size: 0.8em;
+  }
+
 @media screen and (max-width: 769px) and (min-width: 336px){
-   
-    
+
+
     .my-title{
         font-size: 1em;
     }
 
-    
+
 }
 
 @media screen and (max-width: 335px){
