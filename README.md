@@ -1,6 +1,6 @@
 # webModelCurriculum
 
-![WebModelCurriculum](https://www.shutterstock.com/es/image-illustration/3d-futuristic-circuit-background-motion-graphic-1675260034)
+![gift](https://www.shutterstock.com/es/image-illustration/3d-futuristic-circuit-background-motion-graphic-1675260034)
 
 
  🔴  Módulo I de Argentina Programa 4.0 🚀  🔴 
