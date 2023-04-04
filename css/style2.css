@@ -1,43 +1,38 @@
-.my-nav{
-    font-size: 3em;
+.my-nav {
+  font-size: 3em;
 }
 
-.my-title{
-    color: #ffff;
-    font-size: 2.5em;
-    padding-left: 35%;
-    margin-top: 10%;
+.my-title {
+  color: #ffff;
+  font-size: 2.5em;
+  padding-left: 35%;
+  margin-top: 10%;
 }
 
-.container-image{
-    width: 25%;
-    margin-right: 5%;
-
+.container-image {
+  width: 25%;
+  margin-right: 5%;
 }
 
-.my-image{
-    width: 100%;
-    border-radius: 90%;
+.my-image {
+  width: 100%;
+  border-radius: 90%;
 }
 
-
-.my-button{
-    padding: 8%;
-
+.my-button {
+  padding: 8%;
 }
-
 
 /* ********** CONTACTO ******** */
 
-.my-btn-enviar{
-    background-color: rgb(135, 152, 155);
+.my-btn-enviar {
+  background-color: rgb(135, 152, 155);
 }
-
 
 /* *********** CONTADOR ********** */
 
-.contenedor-countdown{
-  background-color: rgb(228, 205, 167);
+.contenedor-countdown {
+  background-color: rgb(223, 219, 212);
   width: 40%;
   margin: auto;
   padding: 2%;
@@ -46,7 +41,7 @@
   top: 20%;
 }
 
-.logotipo{
+.logotipo {
   font-size: 2em;
   font-weight: bold;
   display: flex;
@@ -55,7 +50,7 @@
   padding-top: 1%;
 }
 
-.mensaje{
+.mensaje {
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -69,8 +64,8 @@
   align-items: center;
   width: 60%;
   margin: 0 auto;
-  border: 3px solid #aaa3a3; 
-  border-radius: 5px; 
+  border: 3px solid #aaa3a3;
+  border-radius: 5px;
   padding: 1%;
 }
 
@@ -80,12 +75,12 @@
   padding: 2%;
   border: 2px solid #000;
   margin: 1%;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 #countdown > div > span {
-  font-size: 1.5em; 
-  font-weight: bold; 
+  font-size: 1.5em;
+  font-weight: bold;
   display: block;
   margin-bottom: 1%;
 }
@@ -93,83 +88,175 @@
 /* *********** FOOTER ***************** */
 
 footer {
-    width: 100%;
-    background-color: rgb(175, 170, 173);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 3em;
+  width: 100%;
+  background-color: rgb(175, 170, 173);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+.social-media-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-footer-list {
+  display: flex;
+  padding-top: 1em;
+}
+
+.social-media-footer-enlaces {
+  list-style: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.8em;
+  border-radius: 50%;
+  background-color: white;
+  color: rgb(39, 7, 25);
+}
+
+.social-media-footer-enlaces i {
+  margin: auto;
+}
+
+.social-media-footer-enlaces .icono-final:hover {
+  background-color: rgb(88, 71, 81);
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.icono-final {
+  color: rgb(51, 35, 44);
+  font-size: 1.5em;
+}
+
+.final-love-container {
+  display: flex;
+}
+
+.final-love {
+  color: rgb(230, 230, 213);
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 769px) and (min-width: 336px) {
+  .my-title {
+    font-size: 1em;
   }
 
-
-  .social-media-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .social-media-footer-list {
-    display: flex;
-    padding-top: 1em;
+  .my-table {
+    font-size: 1em;
   }
 
-  .social-media-footer-enlaces {
-    list-style: none;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0.8em;
-    border-radius: 50%;
-    background-color: white;
-    color: rgb(39, 7, 25);
+  .logotipo{
+    font-size: 1em;
   }
 
-  .social-media-footer-enlaces i {
-    margin: auto;
-  }
-
-  .social-media-footer-enlaces .icono-final:hover {
-    background-color: rgb(88, 71, 81);
-    color: white;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-  }
-
-  .icono-final {
-    color: rgb(51, 35, 44);
-    font-size: 1.5em;
-  }
-
-  .final-love-container {
-    display: flex;
-  }
-
-  .final-love {
-    color: rgb(230, 230, 213);
+  .mensaje{
     font-size: 0.8em;
   }
 
-@media screen and (max-width: 769px) and (min-width: 336px){
+  .contenedor-countdown {
+    width: 60%;
+    top: 30%;
+  }
 
+  #countdown {
+    width: 25%;
+    display: block
+  }
 
-    .my-title{
-        font-size: 1em;
-    }
-
+  #countdown > div {
+    display: block;
+    width: 100%;
+  }
 
 }
 
-@media screen and (max-width: 335px){
+@media screen and (max-width: 335px) {
+  .my-title {
+    font-size: 1em;
+  }
 
-    .my-title{
-        font-size: 1em;
-    }
+  .my-image-experience {
+    width: 100%;
+  }
+
+  .my-table {
+    font-size: 0.6em;
+  }
+
+  .footer-experience {
+    height: 8%;
+  }
+
+  .container-image {
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .logotipo{
+    font-size: 1em;
+  }
+
+  .mensaje{
+    font-size: 0.7em;
+    
+  }
+
+  .contenedor-countdown {
+    width: 60%;
+    top: 30%;
+  }
+
+  #countdown {
+    width: 40%;
+    display: block;
+  }
+
+  #countdown > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5em;
+  }
+
+  /* contenedor-countdown {
+    width: 60%;
+    top: 30%;
+  }
+
+  #countdown {
+    width: 25%;
+    display: block
+  }
+
+  #countdown > div {
+    display: block;
+    width: 100%;
+  } */
+
+
+
+
+  .logotipo {
+    font-size: 1.5em;
+  }
+
+  .mensaje {
+    font-size: 0.8em;
+  }
+
 }
