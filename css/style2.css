@@ -151,7 +151,7 @@ footer {
   font-size: 0.8em;
 }
 
-@media screen and (max-width: 880px) and (min-width: 342px) {
+/* @media screen and (max-width: 880px) and (min-width: 342px) {
   .my-title {
     font-size: 1em;
   }
@@ -182,9 +182,9 @@ footer {
     display: block;
     width: 100%;
   }
-}
+} */
 
-@media screen and (max-width: 341px) {
+@media only screen and (max-width: 768px) {
   .my-title {
     font-size: 1em;
   }
@@ -238,4 +238,5 @@ footer {
   .mensaje {
     font-size: 0.8em;
   }
+
 }
