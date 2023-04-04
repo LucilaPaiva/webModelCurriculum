@@ -36,27 +36,29 @@
 
 /* *********** CONTADOR ********** */
 
-/* .container{
-  /* background-color: red; */
-  /* margin: auto;
-  width: 30%;
+/* .container-contador{
+  background-color: red;
+  margin: auto;
+  width: 50%;
   align-items: center;
   justify-content: center;
+  margin-top: 2%;
 } */
 
-#contador{
-  background-color: rgb(149, 173, 173);
+#contador {
+  background-color: darkcyan;
   color: white;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
-  width: 50%;
+  width: 30%;
   margin: auto;
+  height: 30vh;
 
 }
 
 .div-contador {
-  margin-top: 15px;
+  margin-top: 5%;
   padding: 20px;
   width: 100px;
   height: 90px;
@@ -64,6 +66,7 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.234);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.404);
+  display: flex;
 }
 
 
@@ -72,15 +75,19 @@
   font-weight: bold;
 }
 
+
 .horas {
   color: rgb(64, 0, 128);
   font-weight: bold;
 }
 
+
 .minutos {
   color: rgb(0, 26, 128);
   font-weight: bold;
 }
+
+
 
 .segundos {
   color: teal;
